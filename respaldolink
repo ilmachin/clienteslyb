@@ -1,0 +1,11 @@
+<script>
+function process()
+{
+var url="http://www.tercerround.com/clienteslyb/" + document.getElementById("url").value;
+location.href=url;
+return false;
+}
+</script>
+<form onSubmit="return process();">
+Ingresa tu Rut: <input type="text" name="url" id="url"> <input type="submit" value="ingresar">
+</form>
